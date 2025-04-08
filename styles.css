@@ -1,0 +1,33 @@
+:root{
+    --color-brand:#819B57;
+--color-primary-dark:#31261A;
+--color-primary-light:#faf4ea;}
+
+ul{list-style-type: none;}
+.button {
+    color:var(--color-primary-light);
+    background-color:  var(--color-brand);
+ border: 2px solid var(--color-brand);
+border-radius: 8px;}
+.button:hover{
+    cursor: pointer;
+    color:#37500f;
+    background-color: transparent;
+}
+.button:focus{
+    background-color: coral;
+}
+
+ .link-nav{
+color:var(--color-primary-light);
+}
+.link-nav:hover{color:var(--color-brand)}
+.hero-title{color:var(--color-primary-light) ;}
+.hero-title .accent {color:var(--color-brand)}
+.advantages-list
+{background-color:var(--color-brand);
+color: var(--color-primary-light);}
+.section-title
+{color:var(--color-primary-dark);}
+.section-title .accent-light
+{color:#465929}
